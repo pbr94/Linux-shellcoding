@@ -44,7 +44,7 @@ To run that executable file you can use,
 
 ![](Images/3.PNG)
 
-That executable file is the "shellcode" and let's extract that one. To extract that one can be done by the command which is given below,
+Let's try to extract that executable file. To extract that one can be done by the command which is given below,
 
 >objdump -M intel -d shell
 
