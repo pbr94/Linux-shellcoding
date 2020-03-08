@@ -18,7 +18,7 @@ Shellcode is a piece of machine-readable code or script code that is used to do 
 
 **********************************************************************************************************************************
 
-***Here is a simple shellcode***
+***Let's try to understand simple shellcode***
 
 ![](Images/1.PNG)
 
@@ -30,13 +30,25 @@ To compile this code file you can using below commands.
 
 ![](Images/2.PNG)
 
+***If you don't have "nasm" on your linux machine you can download with it "apt-get install nasm".***
+
 Above codes are using in the x64 bit architecture processors. If you are using x32 bit architecture processor you can use below code segment.
 
 >ld -o shell shell.o
 
-After that it will be given executable file. That has contained specific code which will be provided us a "shell". 
+After that it will be given executable file. That has contained specific code which will be provided us a "shell". In figure which is below will show you that shell has opened.
+
+To run that executable file you can use,
+
+>./shell
 
 ![](Images/3.PNG)
+
+That executable file is the "shellcode" and let's extract that one. To extract that one can be done by the command which is given below,
+
+>objdump -M intel -d shell
+
+![](Images/4.PNG)
 
 
 
