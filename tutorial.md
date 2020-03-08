@@ -22,7 +22,13 @@ Shellcode is a piece of machine-readable code or script code that is used to do 
 
 ![](Images/1.PNG)
 
+Above picture shows a program using Assembly language. This code file will with ***.asm*** extension. 
 
+You can try with above code with creating ***shell.asm***. 
+
+To compile this code file you can using below commands.
+
+![](Images/2.PNG)
 
 
 
