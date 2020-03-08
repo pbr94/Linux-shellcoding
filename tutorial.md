@@ -20,5 +20,8 @@ Shellcode is a piece of machine-readable code or script code that is used to do 
 
 ***Here is a simple shellcode***
 
+![](Images/1.png)
+
+
 
 
