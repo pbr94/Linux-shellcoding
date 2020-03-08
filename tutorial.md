@@ -30,6 +30,13 @@ To compile this code file you can using below commands.
 
 ![](Images/2.PNG)
 
+Above codes are using in the x64 bit architecture processors. If you are using x32 bit architecture processor you can use below code segment.
+
+>ld -o shell shell.o
+
+After that it will be given executable file. That has contained specific code which will be provided us a "shell". 
+
+![](Images/3.PNG)
 
 
 
